@@ -1,0 +1,1 @@
+Do whatever you want with it, just don't be a dick
