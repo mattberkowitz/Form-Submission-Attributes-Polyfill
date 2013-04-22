@@ -20,7 +20,7 @@
             $inputs = $form.find(eles);
 
             if ($form.attr('id') && $form.attr('id') !== '') {
-                $inputs = $inputs.add('input[form="' + $form.attr('id') + '"],button[form="' + $form.attr('id') + '"]').filter(eles)
+                $inputs = $inputs.add($('input[form="' + $form.attr('id') + '"],button[form="' + $form.attr('id') + '"]').filter(eles));
             }
 
             //backup originals
